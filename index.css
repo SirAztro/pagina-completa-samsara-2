@@ -102,12 +102,6 @@ header a:hover{
     font-size: 1.75em;
 }
 
-#nuestra-mision .container{
-    background-color: white;
-    text-align: center center;
-    padding: 200px 12px;
-}
-
 #nuestra-mision .texto{
     text-align: center;
     padding: 200px 12px;
@@ -168,12 +162,16 @@ header a:hover{
     ,url("media/balsamo.jpg");
 }
 
-
-#caracteristicas ul{
+#caracteristicas .container{
     text-align: center;
+    padding: 200px 12px;
+}
+
+#caracteristicas li{
+    
     margin: 16px 0px;
     font-weight: bold;
-    padding: 200px 12px;
+    
 }
 
 #aplica-ya{
@@ -238,7 +236,7 @@ footer .container{
         justify-content: space-evenly;
     }
 
-    #nuestra-mision .tex{
+    #nuestra-mision .texto{
         width: 400%; 
         max-width: 400px;
         text-align: flex;
